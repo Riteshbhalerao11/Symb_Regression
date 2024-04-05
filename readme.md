@@ -34,3 +34,39 @@ Following are the links for the trained models:
 - ```
    kaggle datasets download -p /path/to/model
    ```
+## General Information
+
+This repository consists of the training scripts in the form of notebooks for the evaluation tasks.
+
+- **Task_1&2_Transformers.ipynb** corresponds to Common task 1 as well as Common task 2. It consists of training scripts for Vanilla Transformer Encoder Decoder model.
+
+- **Task_3.1_Bert2Bert.ipynb** corresponds to evaluation task 3.1 and consists of training code for the Bert2Bert model.
+
+## Evaluation results & findings
+
+### Common tasks 1 & 2
+
+A variety of Transformer architectures along with parameters were experimented with. They were also trained on a variety of data sizes up to the maximum possible as per time & hardware. Following is the summarization of some of the experiments. Below accuracies are subject to slight deviations given the randomness of data.
+
+| Data Size | Seq Acc (%) | Num Layers | Hidden Dims | Emb Size | Nhead |
+|-----------|-------------|------------|-------------|----------|-------|
+| 100k      | 65          | 3          | 512         | 512      | 8     |
+| 200k      | 73          | 3          | 1024        | 512      | 8     |
+| 400k      | 80          | 4          | 3072        | 512      | 8     |
+| 600k      | 80          | 4          | 3072        | 512      | 8     |
+
+The model with 400k data samples after running for 30 epochs performed decently & has been provided above. The trend is simple, larger data & architecture expansion will lead to better accuracies & thereby, a well-generalized model for this task.
+
+### Specific task 3.1
+
+Very extensive experimentation with a lot of models, parameters & configurations was done in a very short time span. During experimentation, it became evident that these models tended to overfit quickly and exhibited slow learning tendencies, indicating insufficient data for effective learning. Attempts to mitigate these issues by reducing model complexity led to pronounced underfitting and encountered saddle points during training. Regrettably, training these models on larger datasets was not feasible due to resource constraints and time limitations. The following table summarizes some of the experiments to provide an overview.
+
+| Data Size | Seq Acc (%) | Num Layers | Model       |
+|-----------|-------------|------------|-------------|
+| 300k      | 13          | 6          | LED         | 
+| 200k      | 2           | 6          | LongT5      | 
+| 200k      | 28          | 3          | BART        | 
+| 100k      | 36          | 3          | BERT2BERT   |
+
+Out of all the models, Bert2Bert seems the most promising. All the long-context models turned out to be the worst performers. Also, maximum token length being 256 use of these models does not seem to add value. Bert2Bert, which utilizes BERT configurations for the encoder as well as decoder, achieved better performance than the rest of the LLMs on just 100k data samples.
+
