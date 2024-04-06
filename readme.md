@@ -41,6 +41,8 @@ This repository consists of the training scripts in the form of notebooks for th
 - **Task_1&2_Transformers.ipynb** corresponds to Common task 1 as well as Common task 2. It consists of training scripts for Vanilla Transformer Encoder Decoder model.
 
 - **Task_3.1_Bert2Bert.ipynb** corresponds to evaluation task 3.1 and consists of training code for the Bert2Bert model.
+  
+- The **Inference/** contains the notebooks for evaluating the trained models.
 
 ## Evaluation results & findings
 
