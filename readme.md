@@ -11,7 +11,7 @@ Models have been hosted as Kaggle datasets. They can be used in any one of the m
 1. Direct Download link
 2. Via Kaggle API
    ```
-   kaggle datasets download /path/to/model
+   kaggle datasets download username/model
    ```
 3. Using the `opendatasets` Python library
    ```python
