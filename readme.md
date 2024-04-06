@@ -44,6 +44,8 @@ This repository consists of the training scripts in the form of notebooks for th
 
 ## Evaluation results & findings
 
+In both the tasks, sequence accuracies have been calculated on 10 % of the training data size with random samples which were unseen during training. 
+
 ### Common tasks 1 & 2
 
 A variety of Transformer architectures along with parameters were experimented with. They were also trained on a variety of data sizes up to the maximum possible as per time & hardware. Following is the summarization of some of the experiments. Below accuracies are subject to slight deviations given the randomness of data.
