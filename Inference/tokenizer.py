@@ -62,7 +62,7 @@ class Tokenizer:
         ordered_dict = OrderedDict()
         exps = [self.space, self.identifier, self.number, self.operator]
         for eqn in self.eqns:
-            eqn = self.preprocess_eqn(eqn)
+            eqn = self._preprocess_eqn(eqn)
             for exp in exps:
                 ordered_dict = self._extract(
                     eqn, ordered_dict, re.compile(exp))
@@ -106,9 +106,9 @@ class Tokenizer:
         Tokenizes target equations.
         """
         exps = [self.space, self.identifier, self.operator]
-        expr = self.preprocess_eqn(expr)
+        expr = self._preprocess_eqn(expr)
         for exp in exps:
-            expr = re.sub(exp, self.add_separators, expr)
+            expr = re.sub(exp, self._add_separators, expr)
         # Replace multiple semicolons with single semicolon
         expr = re.sub(r';{2,}', ';', expr)
         toks = expr.split(';')
