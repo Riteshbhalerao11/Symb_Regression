@@ -11,7 +11,7 @@ Models have been hosted as Kaggle datasets. They can be used in any one of the m
 1. Direct Download link
 2. Via Kaggle API
    ```
-   kaggle datasets download -p /path/to/model
+   kaggle datasets download /path/to/model
    ```
 3. Using the `opendatasets` Python library
    ```python
@@ -32,7 +32,7 @@ Following are the links for the trained models:
 - [Link](https://www.kaggle.com/datasets/riteshbhalerao/bert-sym-regression)
 - [Direct Download link](https://www.kaggle.com/datasets/riteshbhalerao/bert-sym-regression/download?datasetVersionNumber=1)
 - ```
-   kaggle datasets download -p /path/to/model
+   kaggle datasets download riteshbhalerao/bert-sym-regression
    ```
 ## General Information
 
