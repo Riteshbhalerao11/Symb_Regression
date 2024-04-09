@@ -74,5 +74,5 @@ Extensive experimentation with a lot of models, parameters & configurations was 
 | 200k      | 28          | 3          | BART        | 
 | 400k      | 72          | 3          | BERT2BERT   |
 
-Out of all the models, Bert2Bert seems the most promising. All the long-context models turned out to be the worst performers. Also, maximum token length being 256 use of these models does not seem to add value. Bert2Bert, which utilizes BERT configurations for the encoder as well as decoder, achieved better performance than the rest of the LLMs on just 100k data samples.
+Out of all the models, Bert2Bert seems the most promising. All the long-context models turned out to be the worst performers. Also, maximum token length being 256 use of these models does not seem to add value. Bert2Bert, which utilizes BERT configurations for the encoder as well as decoder, achieved better performance than the rest of the LLMs.
 
