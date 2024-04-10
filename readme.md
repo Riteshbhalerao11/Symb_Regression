@@ -45,6 +45,15 @@ This repository consists of the training scripts in the form of notebooks for th
 - The **Inference/** contains the notebooks for evaluating the trained models.
 
 - **Viz/** contains some interesting attention visualization of trained bert2bert model.
+  
+**Example visualizations**
+
+<p float="left">
+  <img src="https://github.com/Riteshbhalerao11/Symb_Regression/assets/105015931/9eec2f9f-f0aa-4c5e-b162-fe5e5aa0d318" width="400" />
+  <img src="https://github.com/Riteshbhalerao11/Symb_Regression/assets/105015931/b39b2394-6b3f-45e8-837e-ebb0d3a8e34a" width="400" /> 
+</p>
+
+<img src="https://github.com/Riteshbhalerao11/Symb_Regression/assets/105015931/c8ccf7f8-74f9-4dc4-b1c4-0c6043e00037" height="400" width= '800'/>
 
 ## Evaluation results & findings
 
@@ -77,4 +86,11 @@ Extensive experimentation with a lot of models, parameters & configurations was 
 | 400k      | 72          | 3          | BERT2BERT   |
 
 Out of all the models, Bert2Bert seems the most promising. All the long-context models turned out to be the worst performers. Also, maximum token length being 256 use of these models does not seem to add value. Bert2Bert, which utilizes BERT configurations for the encoder as well as decoder, achieved better performance than the rest of the LLMs.
+
+
+
+
+
+
+
 
