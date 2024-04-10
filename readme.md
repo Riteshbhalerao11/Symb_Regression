@@ -63,7 +63,7 @@ The model with 400k data samples after running for 30 epochs performed decently 
 
 ### Specific task 3.1
 
-**NOTE : Two lines of code were accidentally deleted (specifically related to tokenization) in Bert2Bert training scripts leading to drastic reduce in accuracy. Apologies for the same. New trained model will be updated by 8th April.**
+## NOTE : Two lines of code were accidentally deleted (specifically related to tokenization) in Bert2Bert training scripts leading to drastic reduce in accuracy. Apologies for the same. New trained model will be updated by 11th April.
 
 Extensive experimentation with a lot of models, parameters & configurations was done in a very short time span. During experimentation, it became evident that these models tended to overfit quickly and exhibited slow learning tendencies, indicating insufficient data for effective learning. Attempts to mitigate these issues by reducing model complexity led to pronounced underfitting and encountered saddle points during training. Regrettably, training these models on larger datasets was not feasible due to resource constraints and time limitations. The following table summarizes some of the experiments to provide an overview.
 
@@ -74,5 +74,5 @@ Extensive experimentation with a lot of models, parameters & configurations was 
 | 200k      | 28          | 3          | BART        | 
 | 400k      | 72          | 3          | BERT2BERT   |
 
-Out of all the models, Bert2Bert seems the most promising. All the long-context models turned out to be the worst performers. Also, maximum token length being 256 use of these models does not seem to add value. Bert2Bert, which utilizes BERT configurations for the encoder as well as decoder, achieved better performance than the rest of the LLMs on just 100k data samples.
+Out of all the models, Bert2Bert seems the most promising. All the long-context models turned out to be the worst performers. Also, maximum token length being 256 use of these models does not seem to add value. Bert2Bert, which utilizes BERT configurations for the encoder as well as decoder, achieved better performance than the rest of the LLMs.
 
