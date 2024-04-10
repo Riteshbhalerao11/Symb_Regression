@@ -44,6 +44,8 @@ This repository consists of the training scripts in the form of notebooks for th
   
 - The **Inference/** contains the notebooks for evaluating the trained models.
 
+- **Viz/** contains some interesting attention visualization of trained bert2bert model.
+
 ## Evaluation results & findings
 
 In both the tasks, sequence accuracies have been calculated on 10 % of the training data size with random samples which were unseen during training. 
