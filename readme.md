@@ -89,12 +89,8 @@ Out of all the models, Bert2Bert seems the most promising. All the long-context 
 
 **BERT2BERT training details**
 
-<table>
-  <tr>
-    <td><img src="https://github.com/Riteshbhalerao11/Symb_Regression/assets/105015931/b4e34912-54d4-4d54-a83c-4bafe0c65b19" height="400" width="600" /></td>
-    <td><img src="https://github.com/Riteshbhalerao11/Symb_Regression/assets/105015931/dfd34a7a-303c-4e18-8f05-d51b9721b464" height="300" width="400" /></td>
-  </tr>
-</table>
+<img src="https://github.com/Riteshbhalerao11/Symb_Regression/assets/105015931/b4e34912-54d4-4d54-a83c-4bafe0c65b19" height="400" width="550" /></td>
+<img src="https://github.com/Riteshbhalerao11/Symb_Regression/assets/105015931/dfd34a7a-303c-4e18-8f05-d51b9721b464" height="350" width="450" /></td>
 
 
 
