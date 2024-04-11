@@ -28,7 +28,7 @@ Following are the links for the trained models:
   kaggle datasets download riteshbhalerao/transformer-sym-regression
   ```
 
-### 2. Bert2Bert (BertGeneration)
+### 2. Bert2Bert (BertGeneration) -- (Use the latest version i.e. Version 3)
 - [Link](https://www.kaggle.com/datasets/riteshbhalerao/bert-sym-regression)
 - [Direct Download link](https://www.kaggle.com/datasets/riteshbhalerao/bert-sym-regression/download?datasetVersionNumber=1)
 - ```
