@@ -31,7 +31,7 @@ Following are the links for the trained models:
 ### 2. Bert2Bert (BertGeneration)
 #### Note : Use the latest version i.e. Version 3
 - [Link](https://www.kaggle.com/datasets/riteshbhalerao/bert-sym-regression)
-- [Direct Download link](https://www.kaggle.com/datasets/riteshbhalerao/bert-sym-regression/download?datasetVersionNumber=1)
+- [Direct Download link](https://www.kaggle.com/datasets/riteshbhalerao/bert-sym-regression/download?datasetVersionNumber=3)
 - ```
    kaggle datasets download riteshbhalerao/bert-sym-regression
    ```
