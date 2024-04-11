@@ -31,7 +31,7 @@ Following are the links for the trained models:
 ### 2. Bert2Bert (BertGeneration)
 #### Note : Use the latest version i.e. Version 3
 - [Link](https://www.kaggle.com/datasets/riteshbhalerao/bert-sym-regression)
-- [Direct Download link](https://www.kaggle.com/datasets/riteshbhalerao/bert-sym-regression/download?datasetVersionNumber=1)
+- [Direct Download link](https://www.kaggle.com/datasets/riteshbhalerao/bert-sym-regression/download?datasetVersionNumber=3)
 - ```
    kaggle datasets download riteshbhalerao/bert-sym-regression
    ```
@@ -75,7 +75,7 @@ The model with 400k data samples after running for 30 epochs performed decently 
 
 ### Specific task 3.1
 
-Extensive experimentation with a lot of models, parameters & configurations was done in a very short time span. During experimentation, it became evident that these models tended to overfit quickly and exhibited slow learning tendencies, indicating insufficient data for effective learning. Attempts to mitigate these issues by reducing model complexity led to pronounced underfitting and encountered saddle points during training. Regrettably, training these models on larger datasets was not feasible due to resource constraints and time limitations. The following table summarizes some of the experiments to provide an overview.
+Extensive experimentation with a lot of models, parameters & configurations was done. During experimentation, it became evident that these models tended to overfit quickly and exhibited slow learning tendencies, indicating insufficient data for effective learning. Attempts to mitigate these issues by reducing model complexity led to pronounced underfitting and encountered saddle points during training. Regrettably, training these models on larger datasets was not feasible due to resource constraints and time limitations. The following table summarizes some of the experiments to provide an overview.
 
 | Data Size | Seq Acc (%) | Num Layers | Model       |
 |-----------|-------------|------------|-------------|
@@ -89,12 +89,8 @@ Out of all the models, Bert2Bert seems the most promising. All the long-context 
 
 **BERT2BERT training details**
 
-<table>
-  <tr>
-    <td><img src="https://github.com/Riteshbhalerao11/Symb_Regression/assets/105015931/b4e34912-54d4-4d54-a83c-4bafe0c65b19" height="400" width="600" /></td>
-    <td><img src="https://github.com/Riteshbhalerao11/Symb_Regression/assets/105015931/dfd34a7a-303c-4e18-8f05-d51b9721b464" height="300" width="400" /></td>
-  </tr>
-</table>
+<img src="https://github.com/Riteshbhalerao11/Symb_Regression/assets/105015931/b4e34912-54d4-4d54-a83c-4bafe0c65b19" height="400" width="650" /></td>
+<img src="https://github.com/Riteshbhalerao11/Symb_Regression/assets/105015931/dfd34a7a-303c-4e18-8f05-d51b9721b464" height="350" width="450" /></td>
 
 
 
